@@ -1,0 +1,73 @@
+
+> skytronex-pm@0.0.0 lint
+> eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0
+
+
+C:\Users\shanghai\.gemini\antigravity\playground\binary-crater\skytronex-pm\src\App.jsx
+    1:8    error  'React' is defined but never used                                no-unused-vars
+   17:5    error  'Video' is defined but never used                                no-unused-vars
+   24:5    error  'Paperclip' is defined but never used                            no-unused-vars
+   25:5    error  'Star' is defined but never used                                 no-unused-vars
+   27:5    error  'MapPin' is defined but never used                               no-unused-vars
+   28:5    error  'DollarSign' is defined but never used                           no-unused-vars
+   34:5    error  'ArrowUpRight' is defined but never used                         no-unused-vars
+   39:5    error  'Play' is defined but never used                                 no-unused-vars
+   41:50   error  'MOCK_POST_IDEAS' is defined but never used                      no-unused-vars
+  322:11   error  'cycleFilter' is assigned a value but never used                 no-unused-vars
+  680:30   error  'Reply' is not defined                                           react/jsx-no-undef
+  813:37   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  813:59   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  893:80   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  893:112  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  893:129  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  893:146  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\shanghai\.gemini\antigravity\playground\binary-crater\skytronex-pm\src\components\AdminDashboard.jsx
+   1:8  error    'React' is defined but never used                                                                             no-unused-vars
+  14:8  warning  React Hook useEffect has a missing dependency: 'loadUsers'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\shanghai\.gemini\antigravity\playground\binary-crater\skytronex-pm\src\components\CodeEditor.jsx
+  1:8  error  'React' is defined but never used  no-unused-vars
+
+C:\Users\shanghai\.gemini\antigravity\playground\binary-crater\skytronex-pm\src\components\ErrorBoundary.jsx
+  9:37  error  'error' is defined but never used  no-unused-vars
+
+C:\Users\shanghai\.gemini\antigravity\playground\binary-crater\skytronex-pm\src\components\Login.jsx
+  1:8  error  'React' is defined but never used  no-unused-vars
+
+C:\Users\shanghai\.gemini\antigravity\playground\binary-crater\skytronex-pm\src\components\ShareModal.jsx
+  1:8   error  'React' is defined but never used  no-unused-vars
+  2:23  error  'Users' is defined but never used  no-unused-vars
+
+C:\Users\shanghai\.gemini\antigravity\playground\binary-crater\skytronex-pm\src\components\Sidebar.jsx
+  1:8  error  'React' is defined but never used  no-unused-vars
+
+C:\Users\shanghai\.gemini\antigravity\playground\binary-crater\skytronex-pm\src\components\TTSButton.jsx
+  1:8   error  'React' is defined but never used            no-unused-vars
+  3:19  error  'StopCircle' is defined but never used       no-unused-vars
+  6:20  error  'cancel' is assigned a value but never used  no-unused-vars
+
+C:\Users\shanghai\.gemini\antigravity\playground\binary-crater\skytronex-pm\src\components\ui\BackgroundGradientAnimation.jsx
+   1:8   error  'React' is defined but never used                 no-unused-vars
+   1:17  error  'useEffect' is defined but never used             no-unused-vars
+   1:28  error  'useState' is defined but never used              no-unused-vars
+  21:5   error  'interactive' is assigned a value but never used  no-unused-vars
+
+C:\Users\shanghai\.gemini\antigravity\playground\binary-crater\skytronex-pm\src\components\ui\NeonGradientCard.jsx
+  1:8  error  'React' is defined but never used  no-unused-vars
+
+C:\Users\shanghai\.gemini\antigravity\playground\binary-crater\skytronex-pm\src\context\AuthContext.jsx
+   1:8   error    'React' is defined but never used                                                                                               no-unused-vars
+   5:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+  75:21  error    'password' is assigned a value but never used                                                                                   no-unused-vars
+  88:38  error    'reject' is defined but never used                                                                                              no-unused-vars
+
+C:\Users\shanghai\.gemini\antigravity\playground\binary-crater\skytronex-pm\src\context\TTSContext.jsx
+  14:30  warning  The ref value 'synthesisRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'synthesisRef.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+  85:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components                                                                                                                                           react-refresh/only-export-components
+
+C:\Users\shanghai\.gemini\antigravity\playground\binary-crater\skytronex-pm\src\hooks\useUserData.js
+  32:8  warning  React Hook useEffect has a missing dependency: 'initialValue'. Either include it or remove the dependency array. If 'setData' needs the current value of 'initialValue', you can also switch to useReducer instead of useState and read 'initialValue' in the reducer  react-hooks/exhaustive-deps
+
+✖ 40 problems (35 errors, 5 warnings)
+
